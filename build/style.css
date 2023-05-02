@@ -1,0 +1,166 @@
+h1 {
+    text-align: center;
+}
+
+nav {
+    display:flex;
+    flex-direction: row;
+    width:100vw;
+    justify-content: space-around;
+    font-size:2em;
+    margin-bottom:10vh;
+}
+
+.nav{
+  text-decoration:none;
+}
+.active {
+  text-decoration:underline;
+}
+.nav:hover{
+  color:#1E96C8;
+}
+
+button,input {
+  font-family: 'Montserrat', sans-serif;
+}
+
+input.loginuser, select {
+    display:flex;
+    justify-content: center;
+    width: 50vw;
+    padding: 12px 20px;
+    margin: 25px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 50vw;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .postin {
+    border-radius: 5px;
+    background-color: #8e538d2f;
+    padding: 20px;
+  }
+
+  form {
+    display:inline-block;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:left;
+  }
+
+  form button {
+    padding: 1em 2em;
+    background-color: #59A9C2;
+    color: white;
+    border: none;
+    font-size: 1em;
+    transition: all 1s ease;
+    outline: none;
+    border-radius:5%;
+  }
+
+  form button:hover {
+    background-color: #65878F;
+  }
+
+/* CSS */
+.edit, .delete{
+  background-color: initial;
+  border-radius: 5px;
+  border-style: none;
+  box-shadow: rgba(245, 244, 247, .25) 0 1px 1px inset;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  height: 20px;
+  line-height: 20px;
+  margin-left: -4px;
+  outline: 0;
+  text-align: center;
+  transition: all .3s cubic-bezier(.05, .03, .35, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: bottom;
+  width: 5vw;
+  height: 5vh;
+}
+
+.edit,.delete:hover {
+  opacity: .7;
+}
+
+.edit {
+  background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+}
+.delete {
+  background-color:red;
+  margin-left: 10px;
+}
+
+.loginForm{
+  display:block;
+  
+}
+
+.buttonlo{
+  margin-right:2vw;
+}
+
+.logout,.linklog {
+  float:right;
+  text-decoration:none;
+  
+}
+.logout,.linklog:hover{
+  color:#1E96C8;
+}
+
+.searchBar{
+  float:right;
+  max-width:10vw;
+}
+.searchb{
+  float:right;
+}
+.messagebox{
+
+  margin-left:15px;
+  
+}
+
+.messagebutton{
+  padding: 0;
+  margin-left:20px;
+ 
+  
+}
+
+body {
+  background: #FDEBED;  
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 5vh;
+
+}
+
+.contentcontainer {
+  padding-left:2vw;
+}
+
+h5{
+  color:red;
+}
