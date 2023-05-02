@@ -23,9 +23,10 @@ useEffect(() => {
         <>
 
      <h1>Welcome!</h1>
-     <Link to="/posts/createpost"> Create a post here!</Link>
-     <Search posts={posts} token={token} fetchPosts={fetchPosts} />
-           
+        {token && <Link to="/posts/createpost"> Create a post here!</Link>}
+
+        <Search posts={posts} token={token} fetchPosts={fetchPosts} />
+   
    </> 
 );
 

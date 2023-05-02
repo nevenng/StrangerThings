@@ -14,6 +14,7 @@ import {
     Delete,
     Message
 } from './components';
+import { Redirect } from 'react-router-dom/cjs/react-router-dom.min';
 
 
 const App = () => {
@@ -62,6 +63,10 @@ const App = () => {
 
   </nav>
 
+    
+  <Route exact path = "/">
+    <Redirect path to="/posts"/>
+  </Route>
   
   <Route exact path ="/posts">  
   <Post fetchPosts={fetchPosts} token={token} Delete={Delete} />
